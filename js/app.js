@@ -1,4 +1,6 @@
 'use strict';
-var app = angular.module('devQ', [firebase]);
+var app = angular.module('devQ', ['firebase']);
 
-app.constant('constants', {})
+app.constant('fireConstant', {
+	"firebaseUrl": "https://devq.firebaseio.com/"
+});
